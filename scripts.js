@@ -26,7 +26,7 @@ const showResult = (userChoice, computerChoice) => {
     const score = parseInt(scoreNumberElement.textContent);
 
     if (userChoice === computerChoice) { //draw condition
-        resultTextElement.textContent = 'Draw';
+        resultTextElement.textContent = 'تعادل';
     }
     else if (
         (userChoice === gameChoicesArray[0] && computerChoice === gameChoicesArray[1]) ||
