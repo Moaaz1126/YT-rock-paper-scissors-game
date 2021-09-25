@@ -33,7 +33,7 @@ const showResult = (userChoice, computerChoice) => {
         (userChoice === gameChoicesArray[1] && computerChoice === gameChoicesArray[2]) ||
         (userChoice === gameChoicesArray[2] && computerChoice === gameChoicesArray[0])
     ) { //lose conditions
-        resultTextElement.textContent = 'You lose';
+        resultTextElement.textContent = 'لقد خسرت';
         gameContentElement.classList.add('gameContent--isLost');
         
         if (score > 0) {
